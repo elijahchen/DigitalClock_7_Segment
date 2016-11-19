@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/OuterBound"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="#000000"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.elijahdesign.project1_digitalclockdesign.MainClockActivity">
+
+    <LinearLayout
+        android:id="@+id/MainFrame"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_weight="0.3"
+        android:background="#00000000"
+        android:weightSum="3.8">
+
+        <com.elijahdesign.project1_digitalclockdesign.DigitView
+            android:id="@+id/leftHourView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.65"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp">
+
+        </com.elijahdesign.project1_digitalclockdesign.DigitView>
+
+        <com.elijahdesign.project1_digitalclockdesign.DigitView
+            android:id="@+id/rightHourView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.65"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp">
+
+        </com.elijahdesign.project1_digitalclockdesign.DigitView>
+
+        <com.elijahdesign.project1_digitalclockdesign.DividerView
+            android:id="@+id/dividerView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.20">
+
+        </com.elijahdesign.project1_digitalclockdesign.DividerView>
+
+        <com.elijahdesign.project1_digitalclockdesign.DigitView
+            android:id="@+id/leftMinuteView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.65"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp">
+
+        </com.elijahdesign.project1_digitalclockdesign.DigitView>
+
+        <com.elijahdesign.project1_digitalclockdesign.DigitView
+            android:id="@+id/rightMinuteView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.65"
+            android:background="#00000000"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp">
+
+        </com.elijahdesign.project1_digitalclockdesign.DigitView>
+
+        <GridLayout
+            android:id="@+id/ampmFrame"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:columnCount="2"
+            android:rowCount="2">
+
+            <TextView
+                android:id="@+id/amView"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_column="0"
+                android:layout_columnWeight="0.5"
+                android:layout_row="0"
+                android:layout_rowWeight="0.5"
+                android:text="AM"
+                android:textAlignment="center"
+                android:textColor="#0019616b"
+                android:textSize="@dimen/abc_action_bar_icon_vertical_padding_material"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/pmView"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_column="1"
+                android:layout_columnWeight="0.5"
+                android:layout_row="0"
+                android:layout_rowWeight="0.5"
+                android:text="PM"
+                android:textAlignment="center"
+                android:textColor="#0019616b"
+                android:textSize="@dimen/abc_action_bar_icon_vertical_padding_material"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <com.elijahdesign.project1_digitalclockdesign.DigitView
+                android:id="@+id/leftSecondView"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_column="0"
+                android:layout_columnWeight="0.5"
+                android:layout_row="1"
+                android:layout_rowWeight="0.5"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp">
+
+            </com.elijahdesign.project1_digitalclockdesign.DigitView>
+
+            <com.elijahdesign.project1_digitalclockdesign.DigitView
+                android:id="@+id/rightSecondView"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_column="1"
+                android:layout_columnWeight="0.5"
+                android:layout_row="1"
+                android:layout_rowWeight="0.5"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp">
+
+            </com.elijahdesign.project1_digitalclockdesign.DigitView>
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dateFrame"
+        android:layout_width="200dp"
+        android:paddingTop="5dp"
+        android:layout_height="25dp"
+        android:layout_alignStart="@+id/MainFrame"
+        android:layout_below="@+id/MainFrame"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/weekView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0019616b"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/abc_action_bar_icon_vertical_padding_material"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/settingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="#00000000"
+        android:onClick="goToSettings"
+        android:text="o o o"
+        android:textColor="#FFFFFF" />
+
+
+</RelativeLayout>

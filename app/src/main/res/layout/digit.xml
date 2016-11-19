@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:background="#00000000"
+        app:layout_aspectRatio="50%"
+        app:layout_heightPercent="100%">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/segment1"
+            android:background="#00000000"
+            app:layout_heightPercent="5%"
+            app:layout_marginLeftPercent="10%"
+            app:layout_marginTopPercent="0%"
+            app:layout_widthPercent="80%">
+
+        </View>
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/segment2"
+            android:background="#00000000"
+            app:layout_heightPercent="40%"
+            app:layout_marginLeftPercent="0%"
+            app:layout_marginTopPercent="5%"
+            app:layout_widthPercent="10%">
+
+        </View>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/segment4"
+            android:background="#00000000"
+            app:layout_heightPercent="5%"
+            app:layout_marginLeftPercent="10%"
+            app:layout_marginTopPercent="45%"
+            app:layout_widthPercent="80%">
+
+        </View>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/segment3"
+            android:background="#00000000"
+            app:layout_heightPercent="40%"
+            app:layout_marginLeftPercent="90%"
+            app:layout_marginTopPercent="5%"
+            app:layout_widthPercent="10%">
+
+        </View>
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#00000000"
+            app:layout_heightPercent="40%"
+            android:id="@+id/segment5"
+            app:layout_marginLeftPercent="0%"
+            app:layout_marginTopPercent="50%"
+            app:layout_widthPercent="10%">
+
+        </View>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/segment7"
+            android:background="#00000000"
+            app:layout_heightPercent="5%"
+            app:layout_marginLeftPercent="10%"
+            app:layout_marginTopPercent="90%"
+            app:layout_widthPercent="80%">
+
+        </View>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/segment6"
+            android:background="#00000000"
+            app:layout_heightPercent="40%"
+            app:layout_marginLeftPercent="90%"
+            app:layout_marginTopPercent="50%"
+            app:layout_widthPercent="10%">
+
+        </View>
+
+    </android.support.percent.PercentRelativeLayout>
+    <!-- The rest of your layout -->
+</android.support.percent.PercentRelativeLayout>

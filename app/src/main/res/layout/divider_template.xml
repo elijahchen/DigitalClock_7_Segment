@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dividerFrame"
+    android:layout_width="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_height="50dp"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/dividerDotTop"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#00000000">
+
+    </View>
+
+    <View
+        android:id="@+id/dividerDotBottom"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:layout_alignStart="@+id/dividerDotTop"
+        android:layout_alignParentBottom="true"
+        android:background="#00000000">
+
+    </View>
+
+</RelativeLayout>

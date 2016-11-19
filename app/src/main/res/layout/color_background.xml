@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bgColor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <View
+        android:id="@+id/whiteSpace"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="#FFFFFF"
+        android:clickable="true">
+
+    </View>
+
+    <View
+        android:id="@+id/yellowSpace"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="#eeff00"
+        android:clickable="true">
+
+    </View>
+
+    <View
+        android:id="@+id/graySpace"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="#707070"
+        android:clickable="true">
+
+    </View>
+
+    <View
+        android:id="@+id/blackSpace"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="#3e3e3e"
+        android:clickable="true">
+
+    </View>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff40ef</color>
+
+    <!--Digit ON-->
+    <color name="onColor">#00e1ff</color>
+
+    <!--Digit OFF-->
+    <color name="offColor">#1e1e1e</color>
+    <color name="hideColor">#0000e1ff</color>
+
+</resources>

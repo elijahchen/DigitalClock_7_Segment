@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval" >
+
+    <solid android:color="#ff0307" />
+    <size
+        android:height="10dp"
+        android:width="10dp"/>
+
+</shape>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<View-->
+        <!--android:id="@+id/segment4"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="10dp"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:background="#0019616b">-->
+
+    <!--</View>-->
+
+
+    <!--<View-->
+        <!--android:id="@+id/segment3"-->
+        <!--android:layout_width="10dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignBottom="@+id/segment2"-->
+        <!--android:layout_alignEnd="@+id/segment7"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:background="#0019616b">-->
+
+    <!--</View>-->
+
+    <!--<View-->
+        <!--android:id="@+id/segment2"-->
+        <!--android:layout_width="10dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignBottom="@+id/segment4"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:background="#0019616b">-->
+
+    <!--</View>-->
+
+    <!--<View-->
+        <!--android:id="@+id/segment6"-->
+        <!--android:layout_width="10dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignStart="@+id/segment3"-->
+        <!--android:layout_alignTop="@+id/segment4"-->
+        <!--android:background="#0019616b">-->
+
+    <!--</View>-->
+
+    <!--<View-->
+        <!--android:id="@+id/segment7"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="10dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:background="#0019616b">-->
+
+    <!--</View>-->
+
+    <!--<View-->
+        <!--android:id="@+id/segment5"-->
+        <!--android:layout_width="10dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignTop="@+id/segment4"-->
+        <!--android:background="#0019616b">-->
+
+    <!--</View>-->
+
+    <!--<View-->
+        <!--android:id="@+id/segment1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="10dp"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:background="#0019616b">-->
+
+    <!--</View>-->
+
+
+<!--</RelativeLayout>-->
